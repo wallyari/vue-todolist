@@ -47,7 +47,8 @@
                             <li class="list-group-item d-flex justify-content-between rounded-pill align-items-center mb-2" v-for="(task, index) in tasks">
                                 <span @click="completeTask(task)" :class="task.done ? 'text-decoration-line-through' : '' ">{{ task.text }}</span>
                                 <span class="badge bg-primary text-dark" @click="removeTask(index)">
-                                    <i class="fa-solid fa-circle-xmark text-white fs-3"></i>
+                                    <i class="fa-solid fa-xmark text-white fs-3"></i>
+                        
                                 </span>
                             </li>
                         </ul>

@@ -27,6 +27,11 @@ const app = new Vue(
             clearAllTasks() {
                 this.tasks = [ ];
             },
+            completeTask(task){
+                if (this.task[index]!=undefined){
+                    this.task.don =!this.task.done;
+                }
+            }
             
         }
     }
