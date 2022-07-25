@@ -6,3 +6,16 @@ body {
 h3{
     font-family: 'Fredoka One', cursive;
 }
+
+ul li,
+div.list-header i {
+    cursor: pointer;
+}
+
+div.list-header i {
+    vertical-align: middle;
+}
+
+ul.list-group li:hover {
+    background-color:  #b8cae56c;;
+}
